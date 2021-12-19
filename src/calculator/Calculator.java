@@ -19,7 +19,7 @@ public class Calculator {
         f.setDefaultCloseOperation(3);
 
         
-        {
+        
         p1=new JPanel();
         p1.setBounds(10,10,420,56);
         p1.setBackground(Color.white);
@@ -27,7 +27,7 @@ public class Calculator {
         t1=new JTextField(16);
         t1.setBounds(5,5,40,80);
         Font fo = new Font("Serif", Font.BOLD, 31);
-        t1.setFont(fo);}
+        t1.setFont(fo);
         
         
         { p2=new JPanel();
@@ -35,17 +35,29 @@ public class Calculator {
         p2.setBackground(Color.white);
         
         b1 = new JButton("1");
+        b1.setFont(fo);
         b2 = new JButton("2");
+        b2.setFont(fo);
         b3 = new JButton("3");
+        b3.setFont(fo);
         b4 = new JButton("4");
+        b4.setFont(fo);
         b5 = new JButton("5");
+        b5.setFont(fo);
         b6 = new JButton("6");
+        b6.setFont(fo);
         b7 = new JButton("7");
+        b7.setFont(fo);
         b8 = new JButton("8");
+        b8.setFont(fo);
         b9 = new JButton("9");
+        b9.setFont(fo);
         b10 = new JButton("00");
+        b10.setFont(fo);
         b11 = new JButton("0");
+        b11.setFont(fo);
         b12 = new JButton(".");
+        b12.setFont(fo);
    
         }
         
@@ -54,11 +66,17 @@ public class Calculator {
         p3.setBackground(Color.white);
         
         op1 = new JButton("+");
+        op1.setFont(fo);
         op2 = new JButton("-");
+        op2.setFont(fo);
         op3 = new JButton("*");
+        op3.setFont(fo);
         op4 = new JButton("%");
+        op4.setFont(fo);
         op5 = new JButton("/");
+        op5.setFont(fo);
         op6 = new JButton("=");
+        op6.setFont(fo);
         
         
         f.add(p1);
